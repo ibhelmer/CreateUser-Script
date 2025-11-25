@@ -1,11 +1,9 @@
 ## Hvad scriptet gør
-1. Det kører igennem hver linje i CSV filen og: punktum
+Det kører igennem hver linje i CSV filen og: punktum
 
-2. Parser felterne via IFS=',' read -r. punktum
-
-Opretter gruppen, hvis den ikke allerede findes.
-
-Opretter brugeren med:
+1. Parser felterne via IFS=',' read -r.
+2. Opretter gruppen, hvis den ikke allerede findes.
+3. Opretter brugeren med:.
 * hjemmekatalog
 * bash shell
 * korrekt gruppe
