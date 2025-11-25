@@ -1,4 +1,4 @@
-##Hvad scriptet gør
+## Hvad scriptet gør
 Det kører igennem hver linje i CSV filen og:
 Parser felterne via IFS=',' read -r.
 Opretter gruppen, hvis den ikke allerede findes.
