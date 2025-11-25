@@ -1,2 +1,10 @@
-# CreateUser-Script
-Script in bash for creating users in linux (Ubuntu)
+##Hvad scriptet gør
+Det kører igennem hver linje i CSV filen og:
+Parser felterne via IFS=',' read -r.
+Opretter gruppen, hvis den ikke allerede findes.
+Opretter brugeren med:
+* hjemmekatalog
+* bash shell
+* korrekt gruppe
+* comment-felt med fuldt navn og e-mail (vises fx i finger og /etc/passwd)
+* Sætter password via chpasswd.# CreateUser-Script
